@@ -139,5 +139,8 @@ This README serves as a cheat sheet for frequently used ROS Noetic commands, spe
 [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
 ## License
+This project is provided under the [License Name].
+
+Please see the [link to LICENSE file] for details.
 
 © 2023 Yuki NAGAKI
