@@ -46,21 +46,93 @@ This README serves as a cheat sheet for frequently used ROS Noetic commands, spe
     > ex. `rosnode info /rosout`
 
 ### **Topics**
-+ 
-
++ Displaying topic data
+    ```
+    rostopic echo [topic_name]
+    ```
 + Displaying a list of running topics
     ```
     rostopic list
     ```
++ Displaying detailed information of the specified topic
+    ```
+    rostopic info [topic_name]
+    ```
++ Displaying the update rate of a topic
+    ```
+    rostopic hz [topic_name]
+    ```
+
+### **Services**
++ Displaying available service types
+    ```
+    rossrv list
+    ```
++ Displaying detailed information of the specified service type
+    ```
+    rossrv show [service_type]
+    ```
+    > ex. `rossrv show turtlesim/Spawn`
++ Displaying a list of running services
+    ```
+    rosservice list
+    ```
++ Displaying detailed information of the specified service
+    ```
+    rosservice info [service_name]
+    ```
++ Calling the specified service
+    ```
+    rosservice call [service_name] [args]
+    ```
+    > ex. `rosservice call /spawn 3 3 0.3 "name"`
+
+### **Params**
++ Displaying available parameters
+    ```
+    rosparam list
+    ```
++ Displaying the specified parameter
+    ```
+    rosparam get [param_name]
+    ```
++ Modifying the specified parameter
+    ```
+    rosparam set [param_name] [args]
+    ```
+    > ex. rosparam set background_b 100
+    + Reflecting the parameter modifications
+        ```
+        rosservice call /clear
+        ```
+
+## Recording and playback
++ Recording all active topics
+    ```
+    rosbag record -a
+    ```
+    > When executed, a bagfile is created in the current directory.
++ Displaying detailed information of the specified bagfile
+    ```
+    rosbag info [bagfile_name]
+    ```
++ Playing back the specified bagfile
+    ```
+    rosbag play [bagfile_name]
+    ```
 
 ## Graphic display
++ Visualize in 3D
+    ```
+    rviz
+    ```
 + Display the relationships between nodes
     ```
     rpt_graph
     ```
-+ Visualize in 3D
++ Displaying a time plot of a topic
     ```
-    rviz
+    rqt_plot
     ```
 
 ## References
