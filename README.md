@@ -1,6 +1,6 @@
 # ROS Noetic command cheat sheet
 
-This README is cheat sheet of frequently used ROS Noetic commands.
+This README serves as a cheat sheet for frequently used ROS Noetic commands, specifically designed for beginners.
 
 ## File system
 + Change directory to ROS package
@@ -47,6 +47,11 @@ This README is cheat sheet of frequently used ROS Noetic commands.
 
 ### **Topics**
 + 
+
++ Displaying a list of running topics
+    ```
+    rostopic list
+    ```
 
 ## Graphic display
 + Display the relationships between nodes
