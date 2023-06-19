@@ -139,11 +139,9 @@ This README serves as a cheat sheet for frequently used ROS Noetic commands, spe
 [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
 ## License
-This project is provided under the [License Name].
 
-Please see the [link to LICENSE file] for details.
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This document is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
 
-
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+It has been created with reference to the [original document](http://wiki.ros.org/ROS/Tutorials), and we express our gratitude to the original document's author(s) for their contribution.
 
 © 2023 Yuki NAGAKI
