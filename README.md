@@ -34,7 +34,19 @@ This README is cheat sheet of frequently used ROS Noetic commands.
     ```
 
 ## Communication information
-### **Topic**
+### **Nodes**
++ Displaying a list of running nodes
+    ```
+    rosnode list
+    ```
++ Displaying detailed information of the specified node
+    ```
+    rosnode info [node_name]
+    ```
+    > ex. `rosnode info /rosout`
+
+### **Topics**
++ 
 
 ## Graphic display
 + Display the relationships between nodes
