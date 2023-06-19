@@ -1,6 +1,6 @@
 # ROS Noetic command cheat sheet
 
-This README serves as a cheat sheet for frequently used ROS Noetic commands, specifically designed for beginners.
+This document serves as a cheat sheet for frequently used ROS Noetic commands, specifically designed for beginners.
 
 ## File system
 + Change directory to ROS package
@@ -134,9 +134,6 @@ This README serves as a cheat sheet for frequently used ROS Noetic commands, spe
     ```
     rqt_plot
     ```
-
-## References
-[ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
 ## License
 
