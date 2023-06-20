@@ -101,10 +101,6 @@ This document serves as a cheat sheet for frequently used ROS Noetic commands, s
     rosparam set [param_name] [args]
     ```
     > ex. rosparam set background_b 100
-    + Reflecting the parameter modifications
-        ```
-        rosservice call /clear
-        ```
 
 ## Recording and playback
 + Recording all active topics
