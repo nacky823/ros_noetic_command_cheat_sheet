@@ -124,7 +124,7 @@ This document serves as a cheat sheet for frequently used ROS Noetic commands, s
     ```
 + Display the relationships between nodes
     ```
-    rpt_graph
+    rqt_graph
     ```
 + Displaying a time plot of a topic
     ```
